@@ -27,7 +27,7 @@ def run():
         pprint(f"wrong fool: {mealType} is not in {mealTypeList})")
         return run()
     health = input('Dietary requirements: ')
-    healthList = ['kosher', 'low-sugar']
+    healthList = ['kosher', 'low-sugar', 'gluten-free']
     if health in healthList:
         recipe_search(ingredient, mealType, health)
     else:
